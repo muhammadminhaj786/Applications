@@ -11,34 +11,42 @@
     <div class="parent">
         <div class="body">
             <div class="inp">
-                <input type="text" placeholder="Enter " id="number">
+                <input type="text" placeholder=" " id="number">
             </div>
             <div class="buttons">
                 <table>
                     <tr>
+                        <td><button id="b2" >C</button></td>
+                        <td><button id="b2" >Ac</button></td>
+                        <td><button id="b2" onclick="setNumber('%')">%</button></td>
+                        <td><button id="b1" onclick="setNumber('/')">/</button></td>
+                    </tr>
+                    <tr>
                         <td><button onclick="setNumber(7)">7</button></td>
                         <td><button onclick="setNumber(8)">8</button></td>
-                        <td><button onclick="setNumber(9)">9</button></td>
-                        <td><button onclick="setNumber('/')">/</button></td>
+                        <td><button onclick="setNumber(0)">9</button></td>
+                        <td><button id="b1" onclick="setNumber('*')">*</button></td>
                     </tr>
                     <tr>
                         <td><button onclick="setNumber(4)">4</button></td>
                         <td><button onclick="setNumber(5)">5</button></td>
                         <td><button onclick="setNumber(6)">6</button></td>
-                        <td><button onclick="setNumber('-')">-</button></td>
+                        <td><button id="b1" onclick="setNumber('+')">+</button></td>
                     </tr>
                     <tr>
                         <td><button onclick="setNumber(1)">1</button></td>
                         <td><button onclick="setNumber(2)">2</button></td>
                         <td><button onclick="setNumber(3)">3</button></td>
-                        <td><button onclick="setNumber('+')">+</button></td>
+                        <td><button id="b1" onclick="setNumber('-')">-</button></td>
                     </tr>
                     <tr>
                         <td><button onclick="setNumber(0)">0</button></td>
                         <td><button onclick="setNumber('.')">.</button></td>
-                        <td><button>C</button></td>
-                        <td><button onclick="ans()">=</button></td>
+                        <td ><button onclick="setNumber()" >^</button></td>
+                        <td ><button id="b1" onclick="ans()">=</button></td>
+                        
                     </tr>
+                   
                 </table>
             </div>
         </div>

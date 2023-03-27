@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 .parent{
-    height: 350px;
-    width: 400px;
+    height: 400px;
+    width: 310px;
     margin: 50px auto;
     border: 1px solid black;
 }
@@ -13,6 +13,7 @@
     background-color: black;
     height: 100%;
     width: 100%;
+    border: 1px solid white;
 }
 .inp {
     padding-top: 15px;
@@ -21,19 +22,33 @@
 .inp input{
     height: 45px;
     width: 95%;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 40px;
     
 }
 .buttons{
-    height: 75%;
+    height: 80%;
     width: 90%;
-    border: 1px solid white;
-    margin: 10px auto;
+    
+    margin: 10px;
+    background-color: black;
 }
 .buttons button{
     height: 40px;
     width: 64px;
     border: none;
-    border-radius: 5px;
-    margin: 10px;
+    border-radius: 40%;
+    margin-top: 20px;
+    margin-left: 4px;
+    background-color:#4E4E50;
 
+}
+#b2{
+    background-color:#9f9fa1;
+
+}
+#b1{
+    background-color:#a03152;
 }

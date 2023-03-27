@@ -1,7 +1,7 @@
 function setNumber(num){
-    var input = document.getElementById("number")
+    var myinp = document.getElementById("number")
     // input.value = input.value + num
-    input.value += num    
+    myinp.value += num   
 }
 function ans(){
     var inputValue = document.getElementById("number")
