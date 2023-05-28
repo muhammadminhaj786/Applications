@@ -4,7 +4,11 @@ function setNumber(num){
     myinp.value += num   
 }
 function ans(){
-    var inputValue = document.getElementById("number")
+    var inputValue= getElementById("number")
     var output = eval(inputValue.value)
     inputValue.value = output
+}
+function clear_inp() {
+    var inputValue= getElementById("number")
+    inputValue.value = "";
 }
